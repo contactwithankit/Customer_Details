@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-table thead {
+    background: inherit !important;
+      background-color: rgb(197, 197, 197) !important;
+    }
+    .applied_filter{
+      background-color: #bfb7b7;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .filter_head{
+      margin-top: 10px;
+    }
+    .notification {
+      margin-right: 14px;
+      background-color: rgb(224, 217, 217);
+      color: white;
+      text-decoration: none;
+      padding: 8px 8px;
+      position: relative;
+      display: inline-block;
+      border-radius: 2px;
+    }
+    
+    .notification:hover {
+      background: #c5c5c5;
+    }
+    
+    .notification .badge {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      padding: 5px 10px;
+      border-radius: 50%;
+      background-color: rgb(17, 16, 16);
+      color: white;
+    }
